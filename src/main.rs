@@ -1,6 +1,5 @@
 use std::env;
 use std::i64;
-use std::cmp;
 
 const CHAR_NAMES: [&'static str; 128] = [
     "NUL", "SOH", "STX", "ETX", "EOT", "ENQ", "ACK", "BEL",
