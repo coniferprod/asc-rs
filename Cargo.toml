@@ -1,0 +1,12 @@
+[package]
+name = "asc"
+version = "0.1.0"
+edition = "2018"
+authors = ["Jere Käpyaho <2261936+jerekapyaho@users.noreply.github.com>"]
+license = "MIT"
+description = """
+Utility to print the ASCII table or information about an individual character.
+"""
+
+[dependencies]
+exitcode = "1.1.2"
