@@ -46,7 +46,7 @@ fn parse_number(s: &str, radix: u32) -> Result<i64, &'static str> {
                 Err("value out of range")
             }
             else {
-                Ok(n)
+                Ok(n.abs())
             }
         },
         Err(_) => Err("wrong format"),

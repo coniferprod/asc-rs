@@ -11,7 +11,7 @@ Install using `cargo install` or use with `cargo run`.
 Without any command line argument, the program prints the ASCII table,
 with character codes in decimal, hexadecimal, binary and octal, with the
 representation or name of the character. The values are output with tab
-separarator, so that they can be easily parsed with `sed`, `awk` and the like.
+separator, so that they can be easily parsed with `sed`, `awk` and the like.
 
 Optionally takes one command line argument, which can be either:
 
